@@ -37,7 +37,7 @@ return {
                     "--header-insertion=iwyu",
                     "--completion-style=detailed",
                     "--function-arg-placeholders",
-                    "--fallback-style=none",
+                    "--fallback-style=llvm",
                 },
                 init_options = {
                     usePlaceholders = true,
