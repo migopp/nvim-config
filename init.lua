@@ -1,2 +1,5 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
+-- init.lua
+-- Self explanatory. Hopefully.
+
+require("migopp.core")
+require("migopp.lazy")
