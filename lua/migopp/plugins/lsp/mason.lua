@@ -54,7 +54,6 @@ return {
 				"beautysh",
 				"stylua",
 				"clang-format",
-				"rustfmt",
 				"isort",
 				"black",
 				"goimports",
