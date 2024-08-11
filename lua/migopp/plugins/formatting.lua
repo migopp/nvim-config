@@ -10,7 +10,6 @@ return {
 		conform.setup({
 			formatters_by_ft = {
 				bash = { "beautysh" },
-				fish = { "fish_indent" },
 				lua = { "stylua" },
 				c = { "clang-format" },
 				cpp = { "clang-format" },
