@@ -36,7 +36,6 @@ return {
 				"clangd",
 				"rust_analyzer",
 				"pyright",
-				"autotools_ls",
 				"marksman",
 				"tsserver",
 				"html",
