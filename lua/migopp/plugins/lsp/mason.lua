@@ -51,7 +51,6 @@ return {
 				"isort",
 				"black",
 				"prettier",
-				"pylint",
 				"eslint_d",
 			},
 		})
