@@ -81,8 +81,20 @@ return {
 		end
 
 		mason_lspconfig.setup_handlers({
+			-- custom handlers
+
 			-- default handler for installed servers
 			function(server_name)
+				-- debug print
+				--
+				-- with this we can see which servers are being loaded
+				-- in the default manner
+				local name_debug = false
+				if name_debug then
+					print(server_name)
+				end
+
+				-- actually set the capabilities
 				lspconfig[server_name].setup({
 					capabilities = capabilities,
 				})
